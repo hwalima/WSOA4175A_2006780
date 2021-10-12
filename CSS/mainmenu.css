@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap');
 body { padding-top: 50px; font-family: 'Oswald', sans-serif; }
 .menu {
-	background: #101117;
+	background: #000000;
 	height: 4rem; 
 	position: fixed;
 	width: 100%;
@@ -12,7 +12,7 @@ body { padding-top: 50px; font-family: 'Oswald', sans-serif; }
 	  list-style-type: none;
 	  margin: 0 auto;
 	  padding: 0;
-	  color: #0b2630;
+	  color: #000000;
 	  transition: all 0.3s;
 	  position: relative; }
 	.menu > ol {
@@ -32,7 +32,7 @@ body { padding-top: 50px; font-family: 'Oswald', sans-serif; }
 		  border-radius: 50%;
 		  bottom: 5px;
 		  left: calc(50% - 2px);
-		  background: #FF48F9;
+		  background: #FA255E;
 		  will-change: transform;
 		  transform: scale(0);
 		  transition: transform 0.2s ease; }
@@ -63,8 +63,8 @@ body { padding-top: 50px; font-family: 'Oswald', sans-serif; }
 	border-bottom-width: 1px;
 	border-top-style:ridge;
 	border-bottom-style: ridge;
-	border-top-color: #FF48F9;
-	border-bottom-color: #FF48F9;
+	border-top-color: #FA255E;
+	border-bottom-color: #FA255E;
 	
 	transform: scale(1, 1);
 		}

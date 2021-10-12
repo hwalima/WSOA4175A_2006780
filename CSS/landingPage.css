@@ -1,14 +1,13 @@
-body {
-    margin: 0;
-}
+
 #bridge {
     display: block;
     margin: 0 auto;
     background-image: url('../Images/art.png');
     background-image: -webkit-image-set(url('../Images/This\ is\ everything\ else.png') 1x, url('../Images/This\ is\ everything\ else.png') 2x);
     background-size: cover;
-    width: 100%;
-    max-width: 750px;
+    width: 750PX;
+	height: 50%;
+    max-width: 100%;
     height: auto;
     cursor: crosshair;
     cursor: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/circular-cursor.png) 53 53, crosshair;
@@ -18,23 +17,25 @@ body {
     font-family: Avenir, sans-serif;
 }
 #bridgeContainer figcaption {
-    margin-top: 0.5rem;
+    margin-top: 0.001rem;
 }
 @import "compass/css3";
  html {
-	 box-shadow: inset 0 0 200px 0 #FF48F9;
+	 
 	 min-height: 100%;
-	 text-decoration-color: #FF48F9;
+	 text-decoration-color: #FA255E;
 }
  .art {
 	 
-	 color: #FF48F9;
+	 color: #FA255E;
 	 font-size: 3.8em;
 	 font-family: "Courier New", Courier, monospace;
 }
- div {
+ section {
 	
 	 text-align: center;
+	 color: #FA255E;
+	 font-size: 40px;
 }
  span {
 	 display: inline-block;

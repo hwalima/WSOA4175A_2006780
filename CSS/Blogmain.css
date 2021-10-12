@@ -4,10 +4,10 @@
     box-sizing: border-box;
 }
 :root {
-    --primary-color: #252A33;
-    --secondary-color: #FF48F9;
+    --primary-color: #C39EA0;
+    --secondary-color: #FA255E;
     --white-color: white;
-    --pink-color: #FF48F9;
+    --pink-color: #FA255E;
     --transition-animation: all 0.5s;
 }
 body {
@@ -35,7 +35,7 @@ p {
 [data-theme="dark"] {
     --primary-color: white;
     --secondary-color: var(--pink-color);
-    --white-color: #252A33;
+    --white-color: #000000;
 }
 [data-theme="dark"] .button a:hover, [data-theme="dark"] .button a:focus, [data-theme="dark"] .button a:active {
     color: white;
@@ -62,7 +62,7 @@ p {
     transform: translateX(25px);
 }
 .slider {
-    background-color: #3FAEF8;
+    background-color: #C39EA0;
     bottom: 0;
     cursor: pointer;
     position: absolute;

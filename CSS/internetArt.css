@@ -1,5 +1,5 @@
 body {
-    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+   background-color: black;
     height: 100vh;
     overflow: hidden;
     display: flex;
@@ -2583,7 +2583,7 @@ body {
 .vr_layer_item {
     width: 70%;
     height: 70%;
-    border: 3px solid #fff;
+    border: 3px solid #FA255E;
     border-radius: 100%;
     background: rgba(0, 0, 0, 0.05);
     animation: sphere 3000ms cubic-bezier(0.215, 0.61, 0.355, 1) alternate infinite, color 5000ms linear alternate infinite;
@@ -2602,12 +2602,12 @@ body {
 }
 @keyframes color {
     0% {
-        border-color: #f55;
+        border-color: #FA255E;
    }
     50% {
-        border-color: #55f;
+        border-color: #F8E5E5;
    }
     100% {
-        border-color: #5f5;
+        border-color: #C39EA0;
    }
 }
