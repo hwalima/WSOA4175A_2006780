@@ -116,6 +116,13 @@ header .news_paper_location {
     padding: 10px 0 10px 0;
     margin: 20px 0;
 }
+
+.image{
+    
+    width:  300px;
+    height: 200px;
+    object-fit: cover;
+}
 @media only all and (max-width: 600px) {
     header h1.news_paper_title a {
         font-size: 40px;
