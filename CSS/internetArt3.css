@@ -1,5 +1,5 @@
 body {
-    background-image: url(../Images/images.jpg);
+    background-image: url(../Images/imageArt.png);
 }
 h1 {
     color: #ccc;
@@ -26,11 +26,11 @@ h1 {
     text-align: justify;
 }
 .art-1 {
-    background-image: url(https://unsplash.it/1200/600/?image=1080);
+    background-image: url(../Images/DavidCarrierImage.jpg);
 }
 .art-2 {
     background-image: url(https://unsplash.it/1200/600/?image=1027);
 }
 .art-3 {
-    background-image: url(https://unsplash.it/1200/600/?image=829);
+    background-image: url(../Images/logo.png)
 }
