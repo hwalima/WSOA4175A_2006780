@@ -87,7 +87,7 @@ const DrawCommands = async commands => {
 	
 	await Delay(2000);
 	ResetTerminal();
-	await DrawCommands('Ad Reinhardt:~ KEY=Art is Art. Everything else is everything else');
+	await DrawCommands('Ad Reinhardt:~ QUOTE=Art is Art. Everything else is everything else');
 	await DrawLines(asciiArt);
 })();
 
