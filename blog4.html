@@ -52,16 +52,17 @@
     </section>
     <section class="shade"></section>
     <blockquote>
-      Size, perspective- large objects, when you make them too 3D, you dimensionalize them too much, they appear tiny,
-      so you have to be careful about things like that.
-      <span>Bryan Singer</span>
+      First we thought the PC was a calculator. Then we found out how to turn numbers into letters with ASCII- and
+      thought it was a typewritter. Then we discovered graphics, and thought it was a television. With the World Wide
+      Web, we've realised its a brochure.
+      <span>Douglas Adams</span>
 
     </blockquote>
   </section>
   <section class="title centerV">
     <section>
       <section class="text">
-        <h1>Technical reflection</h1>
+        <h1>Artistic reflection</h1>
       </section>
     </section>
   </section>
@@ -69,92 +70,62 @@
   <!-- For scrolling -->
   <section class='content'>
 
-    <p style="text-align: justify;">Enabling 3D perspective on an element makes it possible to move, rotate, and scale
-      objects in 3D space. I set perspective on a parent element and have it affect all of its children, and the element
-      itself. Both options unlock 3D transforms. In this explanation I cover the options I used for 3D perspective, and
-      explain to scale elements on the z-axis: </p>
-
-    <ul class="b">
-      <li>No perspective</li>
-      <li>Children perspective</li>
-      <li>Self-perspective</li>
-      <li>Scaling along the z-axis</li>
-    </ul>
+    <p style="text-align: justify;">Running under the popular Ad Reinhardt quote: “Art is art. Everything else is
+      everything else.” I seek to make a website whose various components are art in nature. Starting with the footer
+      that represents escaping gas, I began with many ideas on how to stretch the capabilities of CSS in web art making.
+    </p>
 
     <section class="article">
       <h2>Inspiration</h2>
 
-      <video width="420" height="340" controls>
-        <source src="./Images/gif.mp4" type="video/mp4">
+      <img src="./images/asciiart.png" alt="triggers" width="100" height="100" />
 
-        Your browser does not support the video tag.
       </video>
-      <p class="firstpara"><strong class="firstcharacter">I</strong>nspired by @TatsuyaBot’s tweet on motion design, I
-        decided to make similar motion cubes, but without JavaScript. However, after a while, the stillness of the cube
-        fast became boring. The final iteration was the addition of a mouse follow script to the code. <br><br>
-        The whole exercise was aimed at stretching the capabilities of HTML and CSS in web art. The tedious process
-        involved dozens of repeated lines of HTML trigger and response sections.
-      </p>
-      <ul class="b">
-        <li>Part 1: trigger</li>
-        <li>Part 2: on hover</li>
-        <li>Part 3: monitor</li>
-      </ul>
-
-      <section class="pause" id="i"><a href="#i">The created 3d perspective is not 3d at all, things are flattened to
-          appear as if they were two-dimensional. to set a 3d perspective, I had to do three things:</a></section>
-      <ul class="b">
-        <li>Setting a children perspective on a parent element</li>
-        <li>Setting a self-perspective on an element itself</li>
-        <li>Scaling along the z-axis. </li>
-      </ul>
-      <img src="./images/triggers.png" alt="triggers" width="100" height="100" />
-
-      <p>Rotating the shape about the y axis was two-dimensional and boring. For a while, that was fine since the shape
-        inside my section, and I wanted to set the section to sort of act like a camera.
-        With my section selected, I set children's perspective, to 1000 pixels. <br><br>
-        The higher the value the more flattened effect I got. The lover the value, the more dramatic effect I got. <br>
-        Here are a bunch of section blocks nothing special about them, except that there are a lot of them. Now the same
-        trigger class is applied to each one of these section blocks. And as I rotate them, the perspective is what you
-        might expect if the viewport was a camera, the perspective is set on the section we've set a child perspective
-        if we go into the section and remove that we already know we have that flattening effect, nothing looks 3d
-        because no perspective has been set.
+      <p class="firstpara"><strong class="firstcharacter">O</strong>ne of the most fascinating milestones in internet
+        and digital technology is the ASCII table. ASCII, abbreviation of American Standard Code for Information
+        Interchange, is a standard data-transmission code that is used by smaller and less-powerful computers to
+        represent both textual data (letters, numbers, and punctuation marks) and noninput-device commands (control
+        characters).
       </p>
 
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/LgiadQQM6mo" title="YouTube video player"
+
+      <section class="pause" id="i"><a href="#i">For me, the way the ASCII table appears as an image looks artistic.
+          Adding on the artistic components of the website like the footer, I wish to experiment with the art of ASCII.
+          as a web user that comes from the dial up internet age, the various images of the ASCII table are
+          nostalgic.</a></section>
+
+
+      <img src="./images/lathe.png" alt="lathe" width="100" height="100" />
+
+      <p>Expanding on basic ASCII art like the endless horse by Colleen Josephson and Kyle Miller, this website will be
+        a combination of Image based SCII -art, pseudo-Art and Command line Art. The art will be mainly substitutions of
+        images with the characters available in the ASCII table. this will create a calligraphy collection, treating a
+        collection of brushstrokes as typography.
+      </p>
+
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/RK1M94g6YpQ" title="YouTube video player"
         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen></iframe>
-      <p>Finally, the scaling along the z-axis, plain page three buttons, they're in a section block that section block
-        is inside another section. Each of these sections is rotated along the X and the Y-axis. The Y-axis is the
-        negative value of the X-axis. This created a complementary viewpoint
-
-      </p>
-      <img src="./images/rotation.png" alt="rotation" width="100" height="100" />
-
+      
 
     </section>
 
 
     <section class="article">
-      <h2>Z-axis</h2>
-      <p>Scaling along the z-axis works on parent elements that have children with varying z values. So children's
-        perspective, great for making any element serve as a camera setting perspective relative to that parent element.
-        Cell perspectives enable 3d controls on an element without setting perspective on its parent. And finally,
-        scaling along the z-axis. This scales objects along the z-axis that have varying z values.</p>
+      <h2>Final thought</h2>
+      <p>The final vision of the website is to allow the coexistence of artistic elements of the website, at the same
+        time creating a nostalgic effect with art.</p>
 
-      <img src="./images/layers.png" alt="rotation" width="100" height="100" />
+      <img src="./images/asciitable.png" alt="rotation" width="100" height="100" />
     </section>
 
 
 
     <section class="article">
       <h2>References</h2>
-      <blockquote class="twitter-tweet">
-        <p lang="und" dir="ltr">GIF <a href="https://t.co/CvFGezoDsD">pic.twitter.com/CvFGezoDsD</a></p>&mdash;
-        TatsuyaM™ (@TatsuyaBot) <a
-          href="https://twitter.com/TatsuyaBot/status/1119824771733049344?ref_src=twsrc%5Etfw">April 21, 2019</a>
-      </blockquote>
-      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      <p>https://www.asciiart.eu/</p><br><br>
+      <p>https://en.m.wikipedia.org/wiki/File:ASCII-Table-wide.svg</p><br><br>
+      <p>https://www.artstation.com/artwork/Yak5gd</p>
     </section>
 
   </section>

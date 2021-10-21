@@ -14,7 +14,7 @@ body .footer {
     display: grid;
     position: relative;
     grid-area: footer;
-    min-height: 12rem;
+    max-height: 7rem;
 }
 body .footer .bubbles {
     position: absolute;

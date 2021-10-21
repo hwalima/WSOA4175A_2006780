@@ -7,6 +7,7 @@ body {
     justify-content: center;
     align-items: center;
     perspective: 1000px;
+    background-image: url(../Images/images.jpg);
 }
 .container {
     position: relative;

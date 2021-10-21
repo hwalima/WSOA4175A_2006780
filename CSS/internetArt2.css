@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background: #FA255E;
+    background-image: url(../Images/images.jpg);
+}
+body canvas, body img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background-image: url(../Images/images.jpg);
+}
