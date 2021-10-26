@@ -6,12 +6,12 @@
 	 box-sizing: border-box;
 	 height: 100%;
 	 background-color: #000;
-	 background-image: radial-gradient(#FA255E, #38032017), url("../Images/l8OwMo.gif");
+	 background-image: radial-gradient(#03A062, #38032017), url("../Images/l8OwMo.gif");
 	 background-repeat: no-repeat;
 	 background-size: cover;
 	 font-family: 'Inconsolata', Helvetica, sans-serif;
 	 font-size: 1.5rem;
-	 color: #FA255E
+	 color: #03A062
 	 
 }
  .noise {
@@ -69,7 +69,7 @@
      
 }
  .output {
-	 color: #FA255E,
+	 color: #03A062,
 	 
 }
  .output::before {

@@ -1,8 +1,31 @@
 body {
     background-image: url(../Images/imageArt.png);
 }
+.prev a, .next a {
+    position: fixed;
+    top: 9.6em;
+    padding: 1em;
+    background: #EC833F;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    color: #ffffff;
+}
+.prev a:hover, .next a:hover {
+    background: #03A062;
+}
+.prev a {
+    left: 0.7em;
+}
+.next a {
+    right: 0.7em;
+}
+
+
 h1 {
-    color: #ccc;
+    
+        font-family: 'mainFont'; 
+        text-align: center;
+   color: aquamarine;
 }
 .asciiart-wrap {
     background: #000;

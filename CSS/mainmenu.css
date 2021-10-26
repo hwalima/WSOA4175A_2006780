@@ -1,5 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap');
-body { padding-top: 50px; font-family: 'Oswald', sans-serif; }
+@font-face {
+	font-family: mainFont;
+	src: url(../fonts/PressStart2P-Regular.ttf)
+ }
+body { padding-top: 50px; font-family: 'mainFont'; }
 .menu {
 	background: #000000;
 	height: 4rem; 
@@ -32,7 +35,7 @@ body { padding-top: 50px; font-family: 'Oswald', sans-serif; }
 		  border-radius: 50%;
 		  bottom: 5px;
 		  left: calc(50% - 2px);
-		  background: #FA255E;
+		  background: #03A062;
 		  will-change: transform;
 		  transform: scale(0);
 		  transition: transform 0.2s ease; }
@@ -63,8 +66,8 @@ body { padding-top: 50px; font-family: 'Oswald', sans-serif; }
 	border-bottom-width: 1px;
 	border-top-style:ridge;
 	border-bottom-style: ridge;
-	border-top-color: #FA255E;
-	border-bottom-color: #FA255E;
+	border-top-color: #03A062;
+	border-bottom-color: #03A062;
 	
 	transform: scale(1, 1);
 		}
@@ -163,7 +166,7 @@ body { padding-top: 50px; font-family: 'Oswald', sans-serif; }
   
   html, body {
 	font-size: 16px;
-	font-family: 'Ubuntu', sans-serif; 
+	font-family: 'mainFont'; 
 	margin: 0;
 
 	 }

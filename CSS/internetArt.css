@@ -1,9 +1,37 @@
+@font-face {
+	font-family: mainFont;
+	src: url(../fonts/VCR_OSD_MONO.ttf)
+ }
+
+ .prev a, .next a {
+    position: fixed;
+    top: 9.6em;
+    padding: 1em;
+    background: #EC833F;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    color: #ffffff;
+}
+.prev a:hover, .next a:hover {
+    background: #03A062;
+}
+.prev a {
+    left: 0.7em;
+}
+.next a {
+    right: 0.7em;
+}
+h1{
+    font-family: 'mainFont'; 
+    text-align: center;
+}
 body {
+    font-family: 'mainFont';
    background-color: black;
     height: 100vh;
     overflow: hidden;
-    display: flex;
-    font-family: 'Anton', sans-serif;
+    
+    
     justify-content: center;
     align-items: center;
     perspective: 1000px;
@@ -2584,7 +2612,7 @@ body {
 .vr_layer_item {
     width: 70%;
     height: 70%;
-    border: 3px solid #FA255E;
+    border: 3px solid #03A062;
     border-radius: 100%;
     background: rgba(0, 0, 0, 0.05);
     animation: sphere 3000ms cubic-bezier(0.215, 0.61, 0.355, 1) alternate infinite, color 5000ms linear alternate infinite;
@@ -2603,12 +2631,12 @@ body {
 }
 @keyframes color {
     0% {
-        border-color: #FA255E;
+        border-color: #03A062;
    }
     50% {
         border-color: #F8E5E5;
    }
     100% {
-        border-color: #C39EA0;
+        border-color: #EC833F;
    }
 }

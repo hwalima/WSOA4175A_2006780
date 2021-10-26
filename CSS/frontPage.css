@@ -1,3 +1,7 @@
+@font-face {
+	font-family: mainFont;
+	src: url(../fonts/PressStart2P-Regular.ttf)
+ }
 @keyframes blink {
     0.01% {
         opacity: 0;
@@ -21,13 +25,13 @@
    }
 }
 html {
-    font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier, monospace;
+    font-family:'mainFont',serif;
     text-shadow: 0 0 5px rgba(165, 12, 96, 0.651);
-    background-color: #FA255E;
+    background-color: #03A062;
     background-image: url(../Images/imageArt.png);
     background-size: 1000px;
     
-    color: #FA255E;
+    color: #03A062;
     height: 100%;
 }
 body {
@@ -37,7 +41,7 @@ body {
    
 }
 p, pre {
-    font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier, monospace;
+    font-family:'mainFont',serif;
     font-size: inherit;
     line-height: 1;
     margin: 0;

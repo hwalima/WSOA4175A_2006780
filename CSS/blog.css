@@ -3,13 +3,13 @@
     position: fixed;
     top: 9.6em;
     padding: 1em;
-    background: #C39EA0;
+    background: #EC833F;
     border: 1px solid #000000;
     border-radius: 5px;
     color: #ffffff;
 }
 .prev a:hover, .next a:hover {
-    background: #FA255E;
+    background: #03A062;
 }
 .prev a {
     left: 0.7em;
@@ -78,7 +78,7 @@ h1 {
     font-size: 5em;
     margin-bottom: 0.1em;
     font: 5em/1em;
-    color: #FA255E;
+    color: #03A062;
 }
 p {
     width: 60vw;
@@ -115,7 +115,7 @@ blockquote{
     font-style:italic;
     color: #555555;
     padding:1.2em 30px 1.2em 75px;
-    border-left:8px solid #FA255E ;
+    border-left:8px solid #03A062 ;
     line-height:1.6;
     position: relative;
     background:#EDEDED;
@@ -124,7 +124,7 @@ blockquote{
   blockquote::before{
     font-family:Arial;
     content: "\201C";
-    color:#FA255E;
+    color:#03A062;
     font-size:4em;
     position: absolute;
     left: 10px;
@@ -137,7 +137,7 @@ blockquote{
   
   blockquote span{
     display:block;
-    color:#C39EA0;
+    color:#EC833F;
     font-style: normal;
     font-weight: bold;
     margin-top:1em;
@@ -148,7 +148,7 @@ blockquote{
     margin: 0 0 6em 0;
    
     padding: 0 1.3em 0 1.3em;
-    border-left: 5px solid #FA255E;
+    border-left: 5px solid #03A062;
 }
 .article img {
     width: 50%;
@@ -161,7 +161,7 @@ blockquote{
 .article h2 {
     font-weight: normal;
     font-size: 55px;
-    color: #FA255E;
+    color: #03A062;
     margin: 0;
 }
 .article h3 {
@@ -189,8 +189,8 @@ blockquote{
     width: 60%;
     padding: 10px;
     text-align: center;
-    border-top: 1px solid #FA255E;
-    border-bottom: 1px solid #FA255E;
+    border-top: 1px solid #03A062;
+    border-bottom: 1px solid #03A062;
 }
 .article .firstcharacter {
     float: left;

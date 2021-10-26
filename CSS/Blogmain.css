@@ -1,17 +1,22 @@
+@font-face {
+	font-family: mainFont;
+	src: url(../fonts/VCR_OSD_MONO.ttf)
+ }
+
 *, *:after, *:before {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 :root {
-    --primary-color: #C39EA0;
-    --secondary-color: #FA255E;
+    --primary-color: #EC833F;
+    --secondary-color: #03A062;
     --white-color: white;
-    --pink-color: #FA255E;
+    --pink-color: #03A062;
     --transition-animation: all 0.5s;
 }
 body {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'mainFont';
     font-size: 16px;
     color: var(--primary-color);
     background-color: var(--white-color);
@@ -62,7 +67,7 @@ p {
     transform: translateX(25px);
 }
 .slider {
-    background-color: #C39EA0;
+    background-color: #EC833F;
     bottom: 0;
     cursor: pointer;
     position: absolute;
@@ -96,7 +101,7 @@ header h1.news_paper_title {
     margin: 0;
 }
 header h1.news_paper_title a {
-    font-family: 'Playfair Display', serif;
+    font-family: 'mainFont', serif;
     font-weight: 900;
     font-size: 60px;
         display: inline-block;

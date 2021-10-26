@@ -23,18 +23,18 @@
  html {
 	 
 	 min-height: 100%;
-	 text-decoration-color: #FA255E;
+	 text-decoration-color: #03A062;
 }
  .art {
 	 
-	 color: #FA255E;
+	 color: #03A062;
 	 font-size: 3.8em;
 	 font-family: "Courier New", Courier, monospace;
 }
  section {
 	
 	 text-align: center;
-	 color: #FA255E;
+	 color: #03A062;
 	 font-size: 40px;
 }
  span {
